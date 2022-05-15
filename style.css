@@ -9,8 +9,14 @@ body {
     margin: 0;
 }
 
-h1 {
+.upper-h1 {
     font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.upper-h1-2 {
+    font-size: 80px;
+    margin-top: 0px;
 }
 
 h3 {
@@ -40,8 +46,97 @@ p {
     padding-right: 100px;
 }
 
-img {
+.upper-img {
     width: 27%;
     height: 10%;
     margin-top: 124px;
+}
+
+.hire-button {
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid black;
+    /* background-color: orange; */
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.resume-button {
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid black;
+    /* background-color: orange; */
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.mid-section {
+    display: flex;
+    background-image: url("resource/developer-portfolio/dream-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    background-position: right;
+
+}
+
+.mid-img {
+    width: 27%;
+    height: 10%;
+    margin-left: 192px;
+}
+
+.mid-half-width {
+    padding-left: 306px;
+    padding-right: 162px;
+}
+
+.mid-h1 {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mid-h1-2 {
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+.exp-area {
+    display: flex;
+    background-image: url("resource/developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp1 {
+    margin: 150px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.exp2 {
+    margin: 150px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#exp-1 {
+    border-left: 7px solid blue;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#exp-2 {
+    border-left: 7px solid blue;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
 }
